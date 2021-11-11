@@ -1,5 +1,90 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+::placeholder {
+  color: white;
+}
+
+html body {
+  background: linear-gradient(to right, #084e9e, #5796df);
+  font-family: sans-serif;
+  min-height: 100vh;
+}
+
+.container, .row {
+  min-height: 100vh;
+}
+
+h2 {
+  text-align: center;
+}
+
+.img-lock {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.inputs-login {
+  max-width: 320px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.inputs-login input {
+  margin-top: 15px;
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  text-indent: 8px;
+  height: 42px;
+  background-color: #505e6c;
+  color: white;
+}
+
+.boton-login,
+.boton-registro {
+  border: none;
+  border-radius: 4px;
+  padding: 11px;
+  box-shadow: none;
+  margin-top: 15px;
+  text-shadow: none;
+  outline: none !important;
+  background-color: #0a58ca;
+  color: white;
+  border-color: #0a53be;
+  width: 100%;
+}
+
+.boton-registro {
+  background-color: rgb(146, 50, 50);
+  margin-top: 23px;
+}
+
+.botones {
+  margin-top: 10px;
+}
+
+.boton-login:hover {
+  background-color: #0e479c;
+}
+.boton-registro:hover {
+  background-color: rgb(128, 41, 41);
+}
+
+.login-box {
+  max-width: 370px;
+  height: 530px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 5px;
+  color: #084e9e;
+  background-color: rgb(3, 40, 51);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}

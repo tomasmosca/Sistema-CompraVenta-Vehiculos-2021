@@ -6,14 +6,37 @@
         <title>Sistema Compra/Venta vehiculos</title>
         <script src="script.js"></script>
         <link rel="stylesheet" type="text/css" href="styles.css" />
-        <link
-            rel="stylesheet"
-            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"/>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <div class="container"></div>
+        <div class="container">
+            <div class="row h-100">
+                <div class="col my-auto">
+                    <div class="d-flex justify-content-center login-container">
+                        <div class="login-box">
+                            <form action="#">
+                                <h2>Login</h2>
+                                <div class="img-lock">
+                                    <i class="fas fa-lock fa-7x"></i>
+                                </div>
+                                    <div class="inputs-login">
+                                        <input class="input-user" type="text" name="usuario" placeholder="Usuario" autocomplete="off" required/>
+                                    <br />
+                                        <input class="input-pass" type="password" name="password" placeholder="Contraseña" autocomplete="off" required/>
+                                    <br />
+                                    <div class="botones">
+                                        <button class="boton-login">Ingresar</button>
+                                        <button class="boton-registro">Registrarse</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
