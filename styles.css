@@ -22,19 +22,22 @@ h2 {
   text-align: center;
 }
 
-.img-lock {
+.img-lock,
+.img-papel {
   text-align: center;
   margin-bottom: 20px;
   margin-top: 20px;
 }
 
-.inputs-login {
+.inputs-login,
+.inputs-registro {
   max-width: 320px;
   width: 90%;
   margin: 0 auto;
 }
 
-.inputs-login input {
+.inputs-login input,
+.inputs-registro input {
   margin-top: 15px;
   width: 100%;
   border: none;
@@ -46,8 +49,15 @@ h2 {
   color: white;
 }
 
+.opciones input {
+  height: 15px;
+  width: 10%;
+}
+
 .boton-login,
-.boton-registro {
+.boton-registro,
+.boton-envio,
+.boton-acceso {
   border: none;
   border-radius: 4px;
   padding: 11px;
@@ -77,9 +87,10 @@ h2 {
   background-color: rgb(128, 41, 41);
 }
 
-.login-box {
+.login-box,
+.register-box {
   max-width: 370px;
-  height: 530px;
+  height: 560px;
   width: 90%;
   margin: 0 auto;
   padding: 40px;
@@ -87,4 +98,9 @@ h2 {
   color: #084e9e;
   background-color: rgb(3, 40, 51);
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.register-box {
+  height: 1100px;
+  max-width: 500px;
 }

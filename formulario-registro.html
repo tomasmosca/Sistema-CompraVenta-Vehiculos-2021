@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sistema Compra/Venta vehiculos</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row h-100">
+        <div class="col my-auto">
+          <div class="d-flex justify-content-center registro-container">
+            <div class="register-box">
+              <form action="#">
+                <h2>Registro en el Sistema</h2>
+                <div class="img-papel">
+                  <i class="fas fa-copy fa-7x"></i>
+                </div>
+                <div class="inputs-registro">
+                  <input type="text" name="nombre" placeholder="Nombre" autocomplete="off" required/><br />
+                  <input type="text" name="apellido" placeholder="Apellido" autocomplete="off" required/><br />
+                  <input type="text" name="domicilio" placeholder="Domicilio" autocomplete="off" required/><br />
+                  <input type="number" name="dni" placeholder="DNI" autocomplete="off" min="1" max="99999999" required/><br />
+                  <input type="date" name="fecha de nacimiento" required/><br />
+                  <input type="number" name="numero de tarjeta" placeholder="Numero de tarjeta" autocomplete="off" required/>
+                  <input type="text" name="nombre completo" placeholder="Nombre completo" autocomplete="off" required/>
+                  <input type="month" name="fecha de vencimiento" required />
+                  <input type="number" name="cvc" placeholder="CVC" autocomplete="off" min="100" max="999" required/><br />
+                  <input type="email" name="email" placeholder="Email" autocomplete="off" required/><br />
+                  <input type="password" name="contraseña" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" placeholder="Contraseña (Alfanumerica de 8 caracteres)" autocomplete="off" required/><br />
+                  <div class="opciones">
+                    <input type="checkbox" id="comprador" name="comprador" value="Comprador"/>
+                    <label for="comprador"> Comprador</label><br />
+                    <input type="checkbox" id="vendedor" name="vendedor" value="Vendedor"/>
+                    <label for="vendedor"> Vendedor</label><br />
+                  </div>
+                </div>
+                <div class="boton-enviar">
+                  <button class="boton-envio">Enviar</button> <br />
+                  <a class="btn btn-primary boton-acceso" href="index.html">Acceder</a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
