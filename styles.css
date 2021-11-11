@@ -14,7 +14,8 @@ html body {
   min-height: 100vh;
 }
 
-.container, .row {
+.container,
+.row {
   min-height: 100vh;
 }
 
@@ -37,7 +38,8 @@ h2 {
 }
 
 .inputs-login input,
-.inputs-registro input {
+.inputs-registro input,
+.inputs-registroV input {
   margin-top: 15px;
   width: 100%;
   border: none;
@@ -88,7 +90,8 @@ h2 {
 }
 
 .login-box,
-.register-box {
+.register-box,
+.registro-vehiculo-box {
   max-width: 370px;
   height: 560px;
   width: 90%;
@@ -104,3 +107,32 @@ h2 {
   height: 1100px;
   max-width: 500px;
 }
+
+.registro-vehiculo-box {
+  height: 780px;
+  max-width: 452px;
+}
+
+.inputs-registroV textarea {
+  background-color: #505e6c;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  outline: none !important;
+  resize: none;
+  margin-top: 15px;
+  text-indent: 10px;
+  padding-top: 5px;
+}
+
+.foto {
+  border-radius: 5px;
+  width: 100px;
+  background-color: rgb(128, 41, 41);
+  outline: none;
+  border: none;
+  margin-top: 15px;
+  color: white;
+  height: 40px;
+}
+

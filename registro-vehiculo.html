@@ -1,0 +1,51 @@
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Sistema Compra/Venta vehiculos</title>
+        <script src="script.js"></script>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row h-100">
+                <div class="col my-auto">
+                    <div class="d-flex justify-content-center">
+                        <div class="registro-vehiculo-box">
+                            <form action="#">
+                                <h2>Registro del Vehiculo</h2>
+                                <div class="inputs-registroV">
+                                    <textarea rows="4" cols="51" name="descripcion" form="usrform" placeholder="Descripcion del Vehiculo" required></textarea>
+                                    <div class="opciones">
+                                        <input type="radio" id="permuta" name="permuta" value="Permuta" checked="checked" />
+                                        <label for="html">Permuta</label><br />
+                                        <input type="radio" id="nopermuta" name="permuta" value="Nopermuta" />
+                                        <label for="css">No permuta</label><br />
+                                    </div>
+                                    <input type="text" placeholder="Tipo de Vehiculo" required />
+                                    <input type="text" placeholder="Marca del Vehiculo" required />
+                                    <input type="text" placeholder="Modelo del Vehiculo" /><br />
+                                    <div class="opciones">
+                                        <input type="radio" id="nuevo" name="estado" value="Nuevo" checked="checked" />
+                                        <label for="html">Nuevo</label><br />
+                                        <input type="radio" id="usado" name="estado" value="Usado" />
+                                        <label for="css">Usado</label><br />
+                                    </div>
+                                    <input type="number" placeholder="Precio" min="1" required />
+                                </div>
+                                <a class="btn btn-primary foto" href="#">Subir Foto</a>
+                                <div class="boton-enviar">
+                                    <button class="boton-envio">Enviar</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
