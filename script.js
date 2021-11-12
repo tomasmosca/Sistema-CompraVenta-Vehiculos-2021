@@ -1,1 +1,3 @@
-console.log("test");
+$(document).ready(function() {
+    $("#basic-form").validate();
+});
