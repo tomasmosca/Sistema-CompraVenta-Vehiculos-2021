@@ -28,19 +28,19 @@
                                         <input type="radio" id="nopermuta" name="permuta" value="Nopermuta" />
                                         <label for="css">No permuta</label><br />
                                     </div>
-                                    <input type="text" placeholder="Tipo de Vehiculo" required />
-                                    <input type="text" placeholder="Marca del Vehiculo" required />
-                                    <input type="text" placeholder="Modelo del Vehiculo" required />
-                                    <input type="date"  placeholder="Fecha de fabricacion del Vehiculo" required /><br />
+                                    <input type="text" placeholder="Tipo de Vehiculo" name="tipovehiculo" required />
+                                    <input type="text" placeholder="Marca del Vehiculo" name="marcavehiculo" required />
+                                    <input type="text" placeholder="Modelo del Vehiculo" name="modelovehiculo" required />
+                                    <input type="date"  placeholder="Fecha de fabricacion del Vehiculo" name="fechaF" required /><br />
                                     <div class="opciones">
                                         <input type="radio" id="nuevo" name="estado" value="Nuevo" checked="checked" />
                                         <label for="html">Nuevo</label><br />
                                         <input type="radio" id="usado" name="estado" value="Usado" />
                                         <label for="css">Usado</label><br />
                                     </div>
-                                    <input type="number" placeholder="Precio" min="1" required />
+                                    <input type="number" placeholder="Precio" min="1" name="precio" required />
                                 </div>
-                                <input id="foto" class="btn btn-primary foto" href="#" type="file"  required />
+                                <input id="foto" class="btn btn-primary foto" href="#" type="file" name="foto" required />
                                 <a class="btn btn-primary foto" href="#">Subir Foto</a>
                                 <div class="boton-enviar">
                                     <button class="boton-envio">Enviar</button>
